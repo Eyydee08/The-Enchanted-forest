@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ================================================================= -->
+  <!-- ✏️ [EDIT HERE] 1. BROWSER TAB TITLE & META DESCRIPTION            -->
+  <!-- ================================================================= -->
+  <title>VERDANT — The Enchanted Forest | Eco-Adventure Theme Park (Mt. Makiling, Laguna)</title>
+  <meta name="description" content="Verdant is an eco-adventure theme park at the foothills of Mount Makiling, Laguna, Philippines. Where Philippine nature, adventure, and Filipino folklore meet imagination.">
+
+  <!-- Google Fonts for Enchanted Theme -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================================================================= -->
+  <!-- ✏️ [EDIT HERE] 2. HEADER & NAVIGATION BAR                         -->
+  <!-- Change the logo text, links, or CTA button below                 -->
+  <!-- ================================================================= -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      
+      <!-- LOGO -->
+      <a href="#hero" class="logo">
+        <i class="fa-solid fa-tree"></i>
+        <div>
+          <!-- ✏️ EDIT: Brand Name -->
+          <span>VERDANT</span>
+          <span class="logo-sub">The Enchanted Forest</span>
+        </div>
+      </a>
+
+      <!-- NAVIGATION MENU -->
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#attractions" class="nav-link">Attractions</a></li>
+          <li><a href="#facilities" class="nav-link">Facilities</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#visitor-guide" class="nav-link">Visitor Guide</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+          <li><a href="#contact" class="nav-link">Location</a></li>
+        </ul>
+        
+        <!-- CALL TO ACTION BUTTON -->
+        <!-- ✏️ EDIT: Action button text & link -->
+        <a href="#visitor-guide" class="btn btn-primary nav-btn">
+          <i class="fa-solid fa-ticket"></i> Book Passes
+        </a>
+      </nav>
+
+      <!-- MOBILE HAMBURGER BUTTON -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- =============================================================== -->
+    <!-- ✏️ [EDIT HERE] 3. HERO SECTION (BANNER & TAGLINE)                -->
+    <!-- =============================================================== -->
+    <section class="hero" id="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        
+        <!-- ✏️ EDIT: Top location badge -->
+        <div class="hero-badge">
+          <i class="fa-solid fa-mountain-sun"></i>
+          <span>Mount Makiling • Laguna, Philippines</span>
+        </div>
+
+        <!-- ✏️ EDIT: Main Title & Sub-Name -->
+        <h1 class="hero-title">
+          VERDANT
+          <span>The Enchanted Forest</span>
+        </h1>
+
+        <!-- ✏️ EDIT: Official Tagline -->
+        <p class="hero-subtitle">
+          “Where nature, adventure, and Filipino imagination come together.”
+        </p>
+
+        <!-- HERO ACTION BUTTONS -->
+        <div class="hero-actions">
+          <!-- ✏️ EDIT: Primary Action Button -->
+          <a href="#attractions" class="btn btn-primary btn-large">
+            <i class="fa-solid fa-compass"></i> Explore The Attractions
+          </a>
+          <!-- ✏️ EDIT: Secondary Action Button -->
+          <a href="#about" class="btn btn-secondary btn-large">
+            <i class="fa-solid fa-book-open"></i> Discover Our Story
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Quick Scroll Indicator -->
+      <a href="#facts" class="scroll-down" aria-label="Scroll down">
+        <i class="fa-solid fa-chevron-down"></i>
+      </a>
+    </section>
+
+
+    <!-- =============================================================== -->
+    <!-- ✏️ [EDIT HERE] 4. QUICK FACTS BAR                               -->
+    <!-- 4 key highlights about the theme park                           -->
+    <!-- =============================================================== -->
+    <section class="quick-facts" id="facts">
+      <div class="container facts-grid">
+        
+        <!-- STAT 1 -->
+        <div class="fact-card">
+          <div class="fact-icon"><i class="fa-solid fa-map-pin"></i></div>
+          <div class="fact-info">
+            <!-- ✏️ EDIT: Label & Value -->
+            <h3>Location</h3>
+            <p>Foothills of Mt. Makiling</p>
+          </div>
+        </div>
+
+        <!-- STAT 2 -->
+        <div class="fact-card">
+          <div class="fact-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+          <div class="fact-info">
+            <!-- ✏️ EDIT: Label & Value -->
+            <h3>Experience</h3>
+            <p>Eco-Adventure & Folklore</p>
+          </div>
+        </div>
+
+        <!-- STAT 3 -->
+        <div class="fact-card">
+          <div class="fact-icon"><i class="fa-solid fa-feather-pointed"></i></div>
+          <div class="fact-info">
+            <!-- ✏️ EDIT: Label & Value -->
+            <h3>Inspiration</h3>
+            <p>Legend of Maria Makiling</p>
+          </div>
+        </div>
+
+        <!-- STAT 4 -->
+        <div class="fact-card">
+          <div class="fact-icon"><i class="fa-solid fa-leaf"></i></div>
+          <div class="fact-info">
+            <!-- ✏️ EDIT: Label & Value -->
+            <h3>Core Mission</h3>
+            <p>Conservation & Nature</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================================== -->
+    <!-- ✏️ [EDIT HERE] 5. ABOUT VERDANT & USP                           -->
+    <!-- The story, unique selling proposition, and connection to folklore -->
+    <!-- =============================================================== -->
+    <section class="about section" id="about">
+      <div class="container about-grid">
+        
+        <!-- ABOUT TEXT CONTENT -->
+        <div class="about-text">
+          <span class="section-tag"><i class="fa-solid fa-seedling"></i> Eco-Adventure Destination</span>
+          <!-- ✏️ EDIT: Section Headline -->
+          <h2 class="section-title">Where Philippine Nature Meets Imagination</h2>
+          
+          <!-- ✏️ EDIT: Paragraph 1 (Concept & Meaning of Mt. Makiling) -->
+          <p class="lead-text">
+            Verdant — The Enchanted Forest is an eco-adventure theme park located at the lush foothills of Mount Makiling in Laguna, Philippines.
+          </p>
+          
+          <!-- ✏️ EDIT: Paragraph 2 (Folklore & Conservation) -->
+          <p>
+            The location is deeply meaningful: Mount Makiling is internationally renowned for its rich biodiversity, majestic rainforests, and the beloved myth of <em>Maria Makiling</em>, guardian diwata of the mountain. Verdant transforms these legendary elements into an unforgettable modern tourism destination while keeping conservation and nature stewardship at its very core.
+          </p>
+
+          <!-- ✏️ EDIT: Unique Selling Proposition Callout -->
+          <div class="usp-quote">
+            <i class="fa-solid fa-quote-left"></i>
+            Unlike traditional amusement parks built around mechanical steel coasters, Verdant offers an immersive forest journey where guests explore living attractions seamlessly woven into the natural canopy, adrenaline adventures, and Philippine mythical lore.
+          </div>
+
+          <!-- ✏️ EDIT: 3 Key Pillars -->
+          <ul class="about-features">
+            <li>
+              <i class="fa-solid fa-tree"></i>
+              <div>
+                <strong>Natural Harmony:</strong> Attractions built directly within and around living forest canopies, ensuring zero habitat disruption.
+              </div>
+            </li>
+            <li>
+              <i class="fa-solid fa-wand-magic-sparkles"></i>
+              <div>
+                <strong>Living Filipino Folklore:</strong> Interactive encounters with Philippine mythical creatures including diwatas, the tikbalang, kapre, and the radiant sarimanok.
+              </div>
+            </li>
+            <li>
+              <i class="fa-solid fa-moon"></i>
+              <div>
+                <strong>Day-to-Night Transformation:</strong> From high-flying canopy ziplines by day to glowing fairy-light trails and night shows by twilight.
+              </div>
+            </li>
+          </ul>
+
+          <a href="#attractions" class="btn btn-primary">
+            <i class="fa-solid fa-compass"></i> Discover the 5 Main Attractions
+          </a>
+        </div>
+
+        <!-- ABOUT IMAGE / VISUALS -->
+        <div class="about-visuals">
+          <div class="image-wrapper">
+            <!-- ✏️ EDIT: Main About Image (Rainforest / Treehouse Canopy) -->
+            <img src="https://images.unsplash.com/photo-1511497584788-87676104235f?auto=format&fit=crop&w=900&q=80" alt="Mystical forest canopy of Mount Makiling" class="about-img-main">
+            
+            <!-- OVERLAY BADGE -->
+            <div class="experience-badge">
+              <span class="badge-num">100%</span>
+              <span class="badge-text">Nature-Based & Eco-Conscious</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================================== -->
+    <!-- ✏️ [EDIT HERE] 6. MAIN ATTRACTIONS (THE 5 CORE ZONES)            -->
+    <!-- =============================================================== -->
+    <section class="attractions section bg-light" id="attractions">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag"><i class="fa-solid fa-star"></i> Featured Experiences</span>
+          <!-- ✏️ EDIT: Section Title & Subtitle -->
+          <h2 class="section-title">5 Signature Forest Attractions</h2>
+          <p class="section-description">
+            Step into a world where thrilling eco-adventures seamlessly blend with timeless Philippine folklore and the whispering canopy of Mount Makiling.
+          </p>
+        </div>
+
+        <div class="attractions-grid">
+          
+          <!-- ATTRACTION 1: GIANT TREE VILLAGE -->
+          <article class="card">
+            <div class="card-img-container">
+              <!-- ✏️ EDIT: Image URL for Giant Tree Village -->
+              <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80" alt="Elevated treehouses and wooden walkways">
+              <span class="card-tag"><i class="fa-solid fa-tree"></i> Canopy Living</span>
+            </div>
+            <div class="card-body">
+              <!-- ✏️ EDIT: Title -->
+              <h3 class="card-title">1. Giant Tree Village</h3>
+              <!-- ✏️ EDIT: Description -->
+              <p class="card-text">
+                A breathtaking collection of elevated treehouses connected by wooden sky-walkways and suspension bridges high above the forest floor. Visitors can explore winding canopy trails, enjoy high-perch dining, relax in hammock lounges, or book an overnight stay under the stars.
+              </p>
+              <div class="card-footer">
+                <span class="card-meta"><i class="fa-solid fa-bed"></i> Day Walkways & Overnight Treehouse Stays</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- ATTRACTION 2: FOREST ZIPLINE -->
+          <article class="card">
+            <div class="card-img-container">
+              <!-- ✏️ EDIT: Image URL for Forest Zipline -->
+              <img src="https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=800&q=80" alt="Forest canopy zipline with mountain views">
+              <span class="card-tag"><i class="fa-solid fa-bolt"></i> High Adventure</span>
+            </div>
+            <div class="card-body">
+              <!-- ✏️ EDIT: Title -->
+              <h3 class="card-title">2. Forest Zipline</h3>
+              <!-- ✏️ EDIT: Description -->
+              <p class="card-text">
+                Soar like a raptor across an exhilarating, dual-cable zipline spanning the lush treetops. Experience an unparalleled bird’s-eye aerial view of Mount Makiling's legendary mountain silhouette, misty ravines, and the emerald expanse of the Laguna landscape.
+              </p>
+              <div class="card-footer">
+                <span class="card-meta"><i class="fa-solid fa-wind"></i> Guided by certified safety eco-marshals</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- ATTRACTION 3: FAIRY-LIGHT TRAILS -->
+          <article class="card">
+            <div class="card-img-container">
+              <!-- ✏️ EDIT: Image URL for Fairy-Light Trails -->
+              <img src="https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=800&q=80" alt="Magical nighttime fairy-light forest trail">
+              <span class="card-tag"><i class="fa-solid fa-wand-magic-sparkles"></i> Night Wonder</span>
+            </div>
+            <div class="card-body">
+              <!-- ✏️ EDIT: Title -->
+              <h3 class="card-title">3. Fairy-Light Trails</h3>
+              <!-- ✏️ EDIT: Description -->
+              <p class="card-text">
+                As twilight settles over Mount Makiling, the forest transforms into a luminous dreamscape. Wander along illuminated walking trails guided by thousands of warm fairy lights, hand-crafted bamboo lanterns, and nature-inspired glowing botanical art installations.
+              </p>
+              <div class="card-footer">
+                <span class="card-meta"><i class="fa-solid fa-moon"></i> Opens at 6:00 PM every evening</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- ATTRACTION 4: ENCHANTED BOAT RIDE -->
+          <article class="card">
+            <div class="card-img-container">
+              <!-- ✏️ EDIT: Image URL for Enchanted Boat Ride -->
+              <img src="https://images.unsplash.com/photo-1439853949127-fa647821eea0?auto=format&fit=crop&w=800&q=80" alt="Serene forest lake boat journey">
+              <span class="card-tag"><i class="fa-solid fa-water"></i> Storytelling Cruise</span>
+            </div>
+            <div class="card-body">
+              <!-- ✏️ EDIT: Title -->
+              <h3 class="card-title">4. Enchanted Boat Ride</h3>
+              <!-- ✏️ EDIT: Description -->
+              <p class="card-text">
+                Drift along a tranquil forest lake shrouded in gentle mountain mist. This gentle water journey integrates immersive audio storytelling, interactive light projections, sound effects, and living vignettes illustrating the folklore of Laguna and Maria Makiling's enchanted realm.
+              </p>
+              <div class="card-footer">
+                <span class="card-meta"><i class="fa-solid fa-compass"></i> 25-minute scenic guided boat tour</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- ATTRACTION 5: MYTHICAL FOREST -->
+          <article class="card">
+            <div class="card-img-container">
+              <!-- ✏️ EDIT: Image URL for Mythical Forest -->
+              <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=800&q=80" alt="Mystical woods with ancient trees">
+              <span class="card-tag"><i class="fa-solid fa-dragon"></i> Folklore & Animatronics</span>
+            </div>
+            <div class="card-body">
+              <!-- ✏️ EDIT: Title -->
+              <h3 class="card-title">5. Mythical Forest</h3>
+              <!-- ✏️ EDIT: Description -->
+              <p class="card-text">
+                An interactive cultural walkthrough featuring life-sized artistic installations and animatronic recreations of legendary Philippine mythical figures—including the benevolent <em>Diwata</em>, the noble <em>Tikbalang</em> guardian, the towering <em>Kapre</em> of the ancient balete, and the dazzling <em>Sarimanok</em>.
+              </p>
+              <div class="card-footer">
+                <span class="card-meta"><i class="fa-solid fa-masks-theater"></i> Educational & Folklore Discovery</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================================== -->
+    <!-- ✏️ [EDIT HERE] 7. OTHER FACILITIES & PARK AMENITIES             -->
+    <!-- All supplemental leisure services and venues                   -->
+    <!-- =============================================================== -->
+    <section class="facilities section" id="facilities">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag"><i class="fa-solid fa-layer-group"></i> Park Amenities</span>
+          <!-- ✏️ EDIT: Section Title -->
+          <h2 class="section-title">Leisure, Dining & Forest Facilities</h2>
+          <p class="section-description">
+            Complete your forest sanctuary experience with local farm-to-table dining, handcrafted keepsakes, and serene spaces designed for gatherings.
+          </p>
+        </div>
+
+        <div class="facilities-grid">
+          
+          <!-- FACILITY 1 -->
+          <div class="facility-item">
+            <div class="facility-icon"><i class="fa-solid fa-utensils"></i></div>
+            <div class="facility-info">
+              <!-- ✏️ EDIT: Title & Description -->
+              <h4>Forest Café & Restaurant</h4>
+              <p>Authentic Laguna delicacies, native coffee blends, and organic garden cuisine with open-air woodland views.</p>
+            </div>
+          </div>
+
+          <!-- FACILITY 2 -->
+          <div class="facility-item">
+            <div class="facility-icon"><i class="fa-solid fa-campground"></i></div>
+            <div class="facility-info">
+              <!-- ✏️ EDIT: Title & Description -->
+              <h4>Treehouse Accommodations</h4>
+              <p>Overnight eco-lodges and luxury treehouse suites nestled directly within the living forest canopy.</p>
+            </div>
+          </div>
+
+          <!-- FACILITY 3 -->
+          <div class="facility-item">
+            <div class="facility-icon"><i class="fa-solid fa-gift"></i></div>
+            <div class="facility-info">
+              <!-- ✏️ EDIT: Title & Description -->
+              <h4>Verdant Souvenir Shop</h4>
+              <p>Handcrafted indigenous goods, Mt. Makiling wood carvings, botanical honey, and mythical folklore memorabilia.</p>
+            </div>
+          </div>
+
+          <!-- FACILITY 4 -->
+          <div class="facility-item">
+            <div class="facility-icon"><i class="fa-solid fa-tree"></i></div>
+            <div class="facility-info">
+              <!-- ✏️ EDIT: Title & Description -->
+              <h4>Picnic Grounds & Meadows</h4>
+              <p>Designated eco-friendly picnic zones shaded by towering mahogany and narra trees for families and groups.</p>
+            </div>
+          </div>
+
+          <!-- FACILITY 5 -->
+          <div class="facility-item">
+            <div class="facility-icon"><i class="fa-solid fa-children"></i></div>
+            <div class="facility-info">
+              <!-- ✏️ EDIT: Title & Description -->
+              <h4>Adventure Playground</h4>
+              <p>Safe, nature-inspired obstacle courses, rope nets, and climbing structures for kids and younger explorers.</p>
+            </div>
+          </div>
+
+          <!-- FACILITY 6 -->
+          <div class="facility-item">
+            <div class="facility-icon"><i class="fa-solid fa-microscope"></i></div>
+            <div class="facility-info">
+              <!-- ✏️ EDIT: Title & Description -->
+              <h4>Nature Discovery Center</h4>
+              <p>Interactive biodiversity exhibits detailing Mt. Makiling’s endemic flora, fauna, and environmental conservation.</p>
+            </div>
+          </div>
+
+          <!-- FACILITY 7 -->
+          <div class="facility-item">
+            <div class="facility-icon"><i class="fa-solid fa-camera"></i></div>
+            <div class="facility-info">
+              <!-- ✏️ EDIT: Title & Description -->
+              <h4>Photography & Scenic Spots</h4>
+              <p>Curated photography vantage points overlooking Makiling peaks, moss gardens, and fairy-lit arches.</p>
+            </div>
+          </div>
+
+          <!-- FACILITY 8 -->
+          <div class="facility-item">
+            <div class="facility-icon"><i class="fa-solid fa-theater-masks"></i></div>
+            <div class="facility-info">
+              <!-- ✏️ EDIT: Title & Description -->
+              <h4>Night Forest Show</h4>
+              <p>Nightly live performances blending theatrical dance, indigenous music, and projections telling the tale of Maria Makiling.</p>
+            </div>
+          </div>
+
+          <!-- FACILITY 9 -->
+          <div class="facility-item">
+            <div class="facility-icon"><i class="fa-solid fa-rings-wedding"></i></div>
+            <div class="facility-info">
+              <!-- ✏️ EDIT: Title & Description -->
+              <h4>Events & Wedding Venue</h4>
+              <p>An enchanting forest amphitheater and pavilion for magical woodland weddings, reunions, and celebrations.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================================== -->
+    <!-- ✏️ [EDIT HERE] 8. TARGET GUESTS & WHO IT'S FOR                  -->
+    <!-- Highlighting experiences tailored for each group                -->
+    <!-- =============================================================== -->
+    <section class="target-market section bg-light">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag"><i class="fa-solid fa-users"></i> Welcoming Everyone</span>
+          <!-- ✏️ EDIT: Title -->
+          <h2 class="section-title">Experiences Tailored For Every Explorer</h2>
+          <p class="section-description">
+            Whether seeking tranquility, cultural immersion, or heart-racing canopy adventures, Verdant has something special for you.
+          </p>
+        </div>
+
+        <div class="market-grid">
+          
+          <div class="market-card">
+            <div class="market-icon"><i class="fa-solid fa-people-roof"></i></div>
+            <h4>Families & Kids</h4>
+            <p>Gentle boat rides, safe canopy walkways, fairy light wonderlands, and nature discovery learning.</p>
+          </div>
+
+          <div class="market-card">
+            <div class="market-icon"><i class="fa-solid fa-person-hiking"></i></div>
+            <h4>Adventure Seekers</h4>
+            <p>High-altitude canopy ziplines, rope suspension courses, and scenic trail hikes along Makiling slopes.</p>
+          </div>
+
+          <div class="market-card">
+            <div class="market-icon"><i class="fa-solid fa-heart"></i></div>
+            <h4>Couples & Romantics</h4>
+            <p>Candlelit night forest strolls, secluded treehouse stays, and breathtaking romantic photography backdrops.</p>
+          </div>
+
+          <div class="market-card">
+            <div class="market-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <h4>Field Trips & Schools</h4>
+            <p>Guided biodiversity tours, Philippine mythology lectures, and environmental conservation workshops.</p>
+          </div>
+
+          <div class="market-card">
+            <div class="market-icon"><i class="fa-solid fa-briefcase"></i></div>
+            <h4>Corporate Team Building</h4>
+            <p>Custom team challenge courses, outdoor meeting pavilions, and forest relaxation packages.</p>
+          </div>
+
+          <div class="market-card">
+            <div class="market-icon"><i class="fa-solid fa-plane"></i></div>
+            <h4>Global & Local Tourists</h4>
+            <p>Experience an authentic fusion of rich Filipino myth and tropical biodiversity just hours from Manila.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================================== -->
+    <!-- ✏️ [EDIT HERE] 9. PHOTO GALLERY                                 -->
+    <!-- Captivating visual snapshots of Verdant's atmosphere            -->
+    <!-- =============================================================== -->
+    <section class="gallery section" id="gallery">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag"><i class="fa-solid fa-images"></i> Visual Journey</span>
+          <!-- ✏️ EDIT: Gallery Title -->
+          <h2 class="section-title">Snapshots of the Enchanted Forest</h2>
+          <p class="section-description">A glimpse into the misty heights, glowing night paths, and mythical moments awaiting you.</p>
+        </div>
+
+        <div class="gallery-grid">
+          
+          <!-- PHOTO 1: Treehouse Village -->
+          <figure class="gallery-item">
+            <!-- ✏️ EDIT: Photo URL and Caption -->
+            <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80" alt="Treehouse Village amid the canopy">
+            <figcaption class="gallery-caption">
+              <h4>Giant Tree Village</h4>
+              <span>Elevated Canopy Living & Dining</span>
+            </figcaption>
+          </figure>
+
+          <!-- PHOTO 2: Canopy Bridge -->
+          <figure class="gallery-item">
+            <!-- ✏️ EDIT: Photo URL and Caption -->
+            <img src="https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=800&q=80" alt="Suspension Bridge in the forest">
+            <figcaption class="gallery-caption">
+              <h4>Suspension Skywalks</h4>
+              <span>Canopy Bridges over Makiling Foothills</span>
+            </figcaption>
+          </figure>
+
+          <!-- PHOTO 3: Fairy Lights -->
+          <figure class="gallery-item">
+            <!-- ✏️ EDIT: Photo URL and Caption -->
+            <img src="https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=800&q=80" alt="Warm fairy light installations in the woods">
+            <figcaption class="gallery-caption">
+              <h4>Fairy-Light Trails</h4>
+              <span>Twilight Lantern Installations</span>
+            </figcaption>
+          </figure>
+
+          <!-- PHOTO 4: Misty Lake Boat -->
+          <figure class="gallery-item">
+            <!-- ✏️ EDIT: Photo URL and Caption -->
+            <img src="https://images.unsplash.com/photo-1439853949127-fa647821eea0?auto=format&fit=crop&w=800&q=80" alt="Enchanted lake boat in mountain mist">
+            <figcaption class="gallery-caption">
+              <h4>Enchanted Boat Journey</h4>
+              <span>Storytelling Across the Forest Waters</span>
+            </figcaption>
+          </figure>
+
+          <!-- PHOTO 5: Ancient Woods & Mythical Trees -->
+          <figure class="gallery-item">
+            <!-- ✏️ EDIT: Photo URL and Caption -->
+            <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=800&q=80" alt="Mythical mossy forest roots">
+            <figcaption class="gallery-caption">
+              <h4>The Mythical Sanctuary</h4>
+              <span>Encounter the Realm of Maria Makiling</span>
+            </figcaption>
+          </figure>
+
+          <!-- PHOTO 6: Forest Cafe Dining -->
+          <figure class="gallery-item">
+            <!-- ✏️ EDIT: Photo URL and Caption -->
+            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80" alt="Open air woodland cafe dining">
+            <figcaption class="gallery-caption">
+              <h4>Forest Café & Lounge</h4>
+              <span>Farm-to-Table Laguna Delicacies</span>
+            </figcaption>
+          </figure>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================================== -->
+    <!-- ✏️ [EDIT HERE] 10. VISITOR GUIDE & PRACTICAL INFO               -->
+    <!-- How to get to Mt. Makiling, Laguna, tickets, and safety tips    -->
+    <!-- =============================================================== -->
+    <section class="visitor-info section bg-light" id="visitor-guide">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag"><i class="fa-solid fa-compass"></i> Plan Your Journey</span>
+          <!-- ✏️ EDIT: Section Title -->
+          <h2 class="section-title">Visitor Guide & Travel Information</h2>
+          <p class="section-description">
+            Everything you need for an effortless, enchanting journey from Metro Manila or neighboring provinces to Mt. Makiling, Laguna.
+          </p>
+        </div>
+
+        <div class="info-grid">
+          
+          <!-- GETTING HERE -->
+          <div class="info-card">
+            <div class="info-icon"><i class="fa-solid fa-route"></i></div>
+            <!-- ✏️ EDIT: Getting Here details -->
+            <h3 class="info-title">Getting Here (Laguna)</h3>
+            <ul class="info-list">
+              <li><strong>By Car from Manila:</strong> Approx. 1.5 to 2 hours via SLEX, exit at Calamba, follow the national highway toward Los Baños / Bay, Laguna.</li>
+              <li><strong>Public Transit:</strong> Buses bound for Sta. Cruz / Los Baños depart regularly from Cubao, Buendia, and Alabang.</li>
+              <li><strong>Park Shuttle:</strong> Complimentary electric shuttles operate between Los Baños Junction and the Verdant Main Gate.</li>
+              <li><strong>Parking:</strong> Spacious eco-friendly parking lot with EV charging stalls.</li>
+            </ul>
+          </div>
+
+          <!-- ADMISSIONS & PASSES -->
+          <div class="info-card">
+            <div class="info-icon"><i class="fa-solid fa-ticket"></i></div>
+            <!-- ✏️ EDIT: Pricing and passes -->
+            <h3 class="info-title">Park Passes & Hours</h3>
+            <ul class="info-list">
+              <li><strong>Operating Hours:</strong> Tuesday to Sunday, 8:00 AM – 10:00 PM (Closed Mondays for forest maintenance).</li>
+              <li><strong>Day Explorer Pass:</strong> Access to Giant Tree Village walkways, Mythical Forest, and Nature Center.</li>
+              <li><strong>Twilight & Night Pass:</strong> Fairy-Light Trails, Enchanted Boat Ride, and Night Forest Show (from 5:30 PM).</li>
+              <li><strong>All-Access Adventure:</strong> Includes Forest Zipline & unlimited boat rides.</li>
+            </ul>
+          </div>
+
+          <!-- FOREST ETIQUETTE & TIPS -->
+          <div class="info-card">
+            <div class="info-icon"><i class="fa-solid fa-shield-heart"></i></div>
+            <!-- ✏️ EDIT: Tips & Conservation guidelines -->
+            <h3 class="info-title">Forest Guidelines & Tips</h3>
+            <ul class="info-list">
+              <li><strong>Footwear:</strong> Wear comfortable walking sneakers or hiking shoes suitable for wooden suspension bridges and trails.</li>
+              <li><strong>Eco-Pledge:</strong> Strictly Leave-No-Trace; single-use plastics are prohibited within park grounds. Bring reusable bottles.</li>
+              <li><strong>Weather Prep:</strong> Mt. Makiling microclimate can bring brief refreshing showers; light rain jackets are recommended.</li>
+              <li><strong>Treehouse Bookings:</strong> Overnight stays must be reserved at least 2 weeks in advance.</li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================================== -->
+    <!-- ✏️ [EDIT HERE] 11. FREQUENTLY ASKED QUESTIONS (FAQ)             -->
+    <!-- Specific questions about Verdant, folklore, safety, and booking -->
+    <!-- =============================================================== -->
+    <section class="faq section" id="faq">
+      <div class="container faq-container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag"><i class="fa-solid fa-circle-question"></i> Good to Know</span>
+          <!-- ✏️ EDIT: FAQ Title -->
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-description">Helpful answers about visiting Verdant, park safety, and experiencing Philippine folklore.</p>
+        </div>
+
+        <div class="accordion" id="faqAccordion">
+          
+          <!-- QUESTION 1 -->
+          <div class="accordion-item active">
+            <button class="accordion-header">
+              <!-- ✏️ EDIT: Question 1 -->
+              <span>What makes Verdant different from traditional amusement parks?</span>
+              <i class="fa-solid fa-chevron-down accordion-icon"></i>
+            </button>
+            <div class="accordion-content">
+              <!-- ✏️ EDIT: Answer 1 -->
+              <p>
+                Unlike conventional theme parks centered around steel roller coasters and asphalt plazas, Verdant is built harmoniously within the living rainforest canopy at the foothills of Mount Makiling. Every attraction—from elevated treehouses to folklore boat rides—celebrates biodiversity, environmental conservation, and authentic Philippine myths.
+              </p>
+            </div>
+          </div>
+
+          <!-- QUESTION 2 -->
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <!-- ✏️ EDIT: Question 2 -->
+              <span>What Filipino mythical creatures can we discover in the Mythical Forest?</span>
+              <i class="fa-solid fa-chevron-down accordion-icon"></i>
+            </button>
+            <div class="accordion-content">
+              <!-- ✏️ EDIT: Answer 2 -->
+              <p>
+                Guests will encounter life-sized artistic installations and animatronic interpretations of Maria Makiling (the mountain diwata), the noble forest Tikbalang, the benevolent giant Kapre perched among ancient trees, and the radiant Sarimanok, alongside engaging folklore storytellers who share the cultural history behind each myth.
+              </p>
+            </div>
+          </div>
+
+          <!-- QUESTION 3 -->
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <!-- ✏️ EDIT: Question 3 -->
+              <span>Is the park suitable and safe for young children and seniors?</span>
+              <i class="fa-solid fa-chevron-down accordion-icon"></i>
+            </button>
+            <div class="accordion-content">
+              <!-- ✏️ EDIT: Answer 3 -->
+              <p>
+                Yes! While high-adventure options like the Forest Zipline cater to thrill-seekers, the majority of Verdant—including the Enchanted Boat Ride, Fairy-Light Trails, picnic meadows, Nature Discovery Center, and dining decks—is built with gentle inclines, safety railings, and accessible boardwalks designed for guests of all ages.
+              </p>
+            </div>
+          </div>
+
+          <!-- QUESTION 4 -->
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <!-- ✏️ EDIT: Question 4 -->
+              <span>How do overnight stays at the Giant Tree Village work?</span>
+              <i class="fa-solid fa-chevron-down accordion-icon"></i>
+            </button>
+            <div class="accordion-content">
+              <!-- ✏️ EDIT: Answer 4 -->
+              <p>
+                The Giant Tree Village features dedicated eco-suite treehouses equipped with solar-powered lighting, private viewing decks, cozy bedding, and ensuite bathrooms. Guests staying overnight receive complimentary access to the Fairy-Light Trails and priority seating for the Night Forest Show. Advance reservation is required.
+              </p>
+            </div>
+          </div>
+
+          <!-- QUESTION 5 -->
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <!-- ✏️ EDIT: Question 5 -->
+              <span>Can we book Verdant for school field trips or corporate team-building?</span>
+              <i class="fa-solid fa-chevron-down accordion-icon"></i>
+            </button>
+            <div class="accordion-content">
+              <!-- ✏️ EDIT: Answer 5 -->
+              <p>
+                Yes! Verdant offers customized group packages including guided nature workshops, biodiversity quests led by park naturalists, team-building challenge obstacle courses, and private pavilion rentals for weddings and corporate gatherings.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================================== -->
+    <!-- ✏️ [EDIT HERE] 12. LOCATION, MAP & CONTACT                      -->
+    <!-- Exact address, phone, email, and Google Maps embed              -->
+    <!-- =============================================================== -->
+    <section class="contact section bg-light" id="contact">
+      <div class="container">
+        
+        <div class="contact-grid">
+          
+          <!-- CONTACT DETAILS CARD -->
+          <div class="contact-info-panel">
+            <span class="section-tag"><i class="fa-solid fa-location-dot"></i> Visit Us</span>
+            <!-- ✏️ EDIT: Heading -->
+            <h2 class="section-title">Mount Makiling, Laguna, Philippines</h2>
+            <p>Our Visitor Sanctuary Center is ready to assist you with tour reservations, treehouse bookings, group field trips, and park access.</p>
+
+            <div class="contact-items">
+              
+              <!-- LOCATION -->
+              <div class="contact-item">
+                <div class="contact-icon"><i class="fa-solid fa-mountain"></i></div>
+                <div>
+                  <h4>Park Location</h4>
+                  <!-- ✏️ EDIT: Address -->
+                  <p>Makiling Foothills Eco-Corridor, Los Baños / Bay, Laguna 4030, Philippines</p>
+                </div>
+              </div>
+
+              <!-- PHONE -->
+              <div class="contact-item">
+                <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                <div>
+                  <h4>Inquiries & Reservations</h4>
+                  <!-- ✏️ EDIT: Phone numbers -->
+                  <p>+63 (49) 536-VERDANT / +63 (917) 800-FOREST</p>
+                </div>
+              </div>
+
+              <!-- EMAIL -->
+              <div class="contact-item">
+                <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div>
+                  <h4>Email Concierge</h4>
+                  <!-- ✏️ EDIT: Email address -->
+                  <p>explore@verdantmakiling.ph</p>
+                </div>
+              </div>
+
+              <!-- HOURS -->
+              <div class="contact-item">
+                <div class="contact-icon"><i class="fa-solid fa-clock"></i></div>
+                <div>
+                  <h4>Park Schedule</h4>
+                  <!-- ✏️ EDIT: Schedule -->
+                  <p>Tuesday – Sunday: 8:00 AM – 10:00 PM (Night attractions start at 6:00 PM)</p>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- GOOGLE MAPS LINK BUTTON -->
+            <!-- ✏️ EDIT: Google Maps Link for Mt. Makiling -->
+            <a href="https://maps.google.com/?q=Mount+Makiling+Laguna+Philippines" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              <i class="fa-solid fa-diamond-turn-right"></i> Open in Google Maps
+            </a>
+          </div>
+
+          <!-- EMBEDDED MAP -->
+          <div class="map-panel">
+            <!-- ✏️ EDIT: Google Maps Embed showing Mount Makiling, Laguna -->
+            <iframe 
+              title="Verdant - Mount Makiling Location Map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61908.40693527236!2d121.15786820253818!3d14.13496924844621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd6151f15d8fdb%3A0xb0cb27d53b9845d4!2sMount%20Makiling!5e0!3m2!1sen!2sph!4v1700000000000!5m2!1sen!2sph" 
+              class="map-frame" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ================================================================= -->
+  <!-- ✏️ [EDIT HERE] 13. FOOTER                                         -->
+  <!-- ================================================================= -->
+  <footer class="footer">
+    <div class="container footer-content">
+      
+      <!-- BRAND & MISSION -->
+      <div class="footer-col footer-about">
+        <a href="#hero" class="logo footer-logo">
+          <i class="fa-solid fa-tree"></i>
+          <div>
+            <span>VERDANT</span>
+            <span class="logo-sub" style="color: #6ee7b7;">The Enchanted Forest</span>
+          </div>
+        </a>
+        <!-- ✏️ EDIT: Mission & Tagline -->
+        <p>
+          “Where nature, adventure, and Filipino imagination come together.” Dedicated to the conservation, folklore preservation, and biodiversity of Mount Makiling, Laguna.
+        </p>
+        
+        <!-- SOCIAL MEDIA LINKS -->
+        <!-- ✏️ EDIT: Replace # with your social links -->
+        <div class="social-links">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <!-- QUICK EXPLORATION -->
+      <div class="footer-col">
+        <h4>Attractions</h4>
+        <ul class="footer-links">
+          <li><a href="#attractions">Giant Tree Village</a></li>
+          <li><a href="#attractions">Forest Zipline</a></li>
+          <li><a href="#attractions">Fairy-Light Trails</a></li>
+          <li><a href="#attractions">Enchanted Boat Ride</a></li>
+          <li><a href="#attractions">The Mythical Forest</a></li>
+        </ul>
+      </div>
+
+      <!-- PARK FACILITIES -->
+      <div class="footer-col">
+        <h4>Facilities</h4>
+        <ul class="footer-links">
+          <li><a href="#facilities">Forest Café & Dining</a></li>
+          <li><a href="#facilities">Treehouse Accommodation</a></li>
+          <li><a href="#facilities">Verdant Souvenir Shop</a></li>
+          <li><a href="#facilities">Night Forest Show</a></li>
+          <li><a href="#facilities">Weddings & Events</a></li>
+        </ul>
+      </div>
+
+      <!-- NEWSLETTER / UPDATES -->
+      <div class="footer-col footer-newsletter">
+        <h4>Forest Chronicle</h4>
+        <!-- ✏️ EDIT: Newsletter blurb -->
+        <p>Subscribe for seasonal fairy-light schedules, folklore festivals, and treehouse stay promotions.</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Salamat! You are now subscribed to the Verdant Chronicle.');">
+          <input type="email" placeholder="Enter your email" required aria-label="Email address">
+          <button type="submit" class="btn btn-primary">Join</button>
+        </form>
+      </div>
+
+    </div>
+
+    <!-- COPYRIGHT BAR -->
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <!-- ✏️ EDIT: Copyright text -->
+        <p>&copy; 2026 VERDANT — The Enchanted Forest. Mt. Makiling, Laguna, Philippines. All rights reserved.</p>
+        <p class="credit">In honor of Philippine Nature & Maria Makiling Folklore</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript file for interactivity -->
+  <script src="script.js"></script>
+</body>
+</html>
