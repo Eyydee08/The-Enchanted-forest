@@ -1,21 +1,6 @@
 # 🌳 VERDANT — The Enchanted Forest
 ### Eco-Adventure Theme Park & Leisure Destination (Mt. Makiling, Laguna, Philippines)
 
-> *"Where nature, adventure, and Filipino imagination come together."*
-
-This website is tailored specifically for **VERDANT — The Enchanted Forest**. All text, lore, attractions, facilities, and visitor info are pre-loaded and clearly marked with labels so you can tweak anything at any time.
-
----
-
-## 🚀 How to View Your Website Right Now
-
-1. Go to this folder on your computer:  
-   `C:\Users\adria\.gemini\antigravity\scratch\place-website\`
-2. Double-click **`index.html`**.
-3. It will open instantly in your web browser (Chrome, Edge, Firefox, Brave, etc.)!
-
----
-
 ## 🌲 What Has Been Added to the Website
 
 - **Hero Banner:** Full-screen backdrop of Mount Makiling canopy mist with official tagline and quick action buttons.
