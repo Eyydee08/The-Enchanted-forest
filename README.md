@@ -3,7 +3,7 @@
 
 > *"Where nature, adventure, and Filipino imagination come together."*
 
-This website is tailored specifically for **VERDANT — The Enchanted Forest**. All text, lore, attractions, facilities, and visitor info are pre-loaded and clearly marked with `<!-- ✏️ EDIT HERE -->` labels so you can tweak anything at any time.
+This website is tailored specifically for **VERDANT — The Enchanted Forest**. All text, lore, attractions, facilities, and visitor info are pre-loaded and clearly marked with labels so you can tweak anything at any time.
 
 ---
 
@@ -50,19 +50,19 @@ This website is tailored specifically for **VERDANT — The Enchanted Forest**. 
 
 | Section Label | What it Controls |
 | :--- | :--- |
-| **`✏️ [EDIT HERE] 1`** | Browser Tab Title & Meta Description |
-| **`✏️ [EDIT HERE] 2`** | Navbar Brand Name (`VERDANT`) and Navigation Links |
-| **`✏️ [EDIT HERE] 3`** | Hero Banner, Main Title, and Tagline |
-| **`✏️ [EDIT HERE] 4`** | 4 Quick Stats Bar |
-| **`✏️ [EDIT HERE] 5`** | About Verdant, Maria Makiling Folklore & USP |
-| **`✏️ [EDIT HERE] 6`** | 5 Main Attraction Cards & Descriptions |
-| **`✏️ [EDIT HERE] 7`** | 9 Park Leisure Facilities & Amenities |
-| **`✏️ [EDIT HERE] 8`** | Target Market Cards |
-| **`✏️ [EDIT HERE] 9`** | Photo Gallery & Captions |
-| **`✏️ [EDIT HERE] 10`** | Laguna Visitor Guide, Travel Directions & Passes |
-| **`✏️ [EDIT HERE] 11`** | Interactive FAQ Accordion |
-| **`✏️ [EDIT HERE] 12`** | Contact Info, Phone, Email & Mount Makiling Google Map |
-| **`✏️ [EDIT HERE] 13`** | Footer, Social Links & Conservation Disclaimer |
+| Browser Tab Title & Meta Description |
+| Navbar Brand Name (`VERDANT`) and Navigation Links |
+| Hero Banner, Main Title, and Tagline |
+| 4 Quick Stats Bar |
+| About Verdant, Maria Makiling Folklore & USP |
+| 5 Main Attraction Cards & Descriptions |
+| 9 Park Leisure Facilities & Amenities |
+| Target Market Cards |
+| Photo Gallery & Captions |
+| Laguna Visitor Guide, Travel Directions & Passes |
+| Interactive FAQ Accordion |
+| Contact Info, Phone, Email & Mount Makiling Google Map |
+| Footer, Social Links & Conservation Disclaimer |
 
 ---
 
